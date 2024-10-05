@@ -1,0 +1,16 @@
+#spring.application.name=spring-crud
+spring:
+  application:
+    name: spring-crud
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    url: jdbc:mysql://localhost:3306/user_db
+    password: WJ28@krhps
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    open-in-view: true
+
+
